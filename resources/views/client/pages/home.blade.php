@@ -1,24 +1,6 @@
 @extends('index')
 @section('content')
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><span>Study</span>Lab</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-    </button>
- 
-    <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="course.html" class="nav-link">Course</a></li>
-          <li class="nav-item"><a href="instructor.html" class="nav-link">Instructor</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-      </ul>
-  </div>
- </div>
- </nav>
+@include('client.layouts.menu')
  <!-- END nav -->
  
  <div class="hero-wrap js-fullheight" style="background-image: url('./assets/images/bg_1.jpg');">
@@ -125,7 +107,7 @@
    </a>
  </div>
  <div class="col-md-12 text-center mt-5">
-     <a href="#" class="btn btn-secondary">Xem tất cả khóa học</a>
+     <a href="/course" class="btn btn-secondary ">Xem tất cả khóa học</a>
  </div>
  </div>
  </div>
@@ -244,7 +226,7 @@
              <div class="icon"><span class="flaticon-online"></span></div>
              <div class="text">
               <strong class="number" data-number="400">0</strong>
-              <span>Online Courses</span>
+              <span>Khóa học online</span>
           </div>
       </div>
   </div>
@@ -253,7 +235,7 @@
          <div class="icon"><span class="flaticon-graduated"></span></div>
          <div class="text">
           <strong class="number" data-number="4500">0</strong>
-          <span>Students Enrolled</span>
+          <span>Học sinh đăng ký</span>
       </div>
   </div>
  </div>
@@ -262,7 +244,7 @@
      <div class="icon"><span class="flaticon-instructor"></span></div>
      <div class="text">
       <strong class="number" data-number="1200">0</strong>
-      <span>Experts Instructors</span>
+      <span>Giảng viên tài năng</span>
   </div>
  </div>
  </div>
@@ -271,7 +253,7 @@
      <div class="icon"><span class="flaticon-tools"></span></div>
      <div class="text">
       <strong class="number" data-number="300">0</strong>
-      <span>Hours Content</span>
+      <span>Giờ học</span>
   </div>
  </div>
  </div>
@@ -409,9 +391,9 @@
         <div class="col-md-12 text-center">
            <div class="img"  style="background-image: url(./assets/images/bg_4.jpg);">
               <div class="overlay"></div>
-              <h2>We Are StudyLab An Online Learning Center</h2>
-              <p>We can manage your dream building A small river named Duden flows by their place</p>
-              <p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Enroll Now</a></p>
+              <h2>Chúng tôi là StudyLab trung tâm học tập trực tuyến</h2>
+              <p>Chúng tôi luôn mang đến cho bạn những điều tốt nhất và bổ ích nhất</p>
+              <p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3"> Đăng ký ngay</a></p>
           </div>
       </div>
   </div>
@@ -423,15 +405,15 @@
      <div class="row d-flex">
        <div class="col-md-6 heading-section pr-md-5 ftco-animate d-flex align-items-center">
           <div class="w-100 mb-4 mb-md-0">
-             <span class="subheading">Welcome to StudyLab</span>
-             <h2 class="mb-4">We Are StudyLab An Online Learning Center</h2>
+             <span class="subheading">Chào mừng tới StudyLab</span>
+             <h2 class="mb-4">Chúng tôi là StudyLab trung tâm học tập trực tuyến</h2>
              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
              <div class="d-flex video-image align-items-center mt-md-4">
                <a href="#" class="video img d-flex align-items-center justify-content-center" style="background-image: url(./assets/images/about.jpg);">
                   <span class="fa fa-play-circle"></span>
               </a>
-              <h4 class="ml-4">Learn anything from StudyLab, Watch video</h4>
+              <h4 class="ml-4">Học mọi điều từ StudyLab, Xem Video</h4>
           </div>
       </div>
   </div>
@@ -441,7 +423,7 @@
            <div class="services">
              <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-tools"></span></div>
              <div class="media-body">
-               <h3 class="heading mb-3">Top Quality Content</h3>
+               <h3 class="heading mb-3">Chất lượng nội dung hàng đầu</h3>
                <p>A small river named Duden flows by their place and supplies</p>
            </div>
        </div>      
@@ -450,7 +432,7 @@
        <div class="services">
          <div class="icon icon-2 d-flex align-items-center justify-content-center"><span class="flaticon-instructor"></span></div>
          <div class="media-body">
-           <h3 class="heading mb-3">Highly Skilled Instructor</h3>
+           <h3 class="heading mb-3">Giảng viên có kĩ năng cao</h3>
            <p>A small river named Duden flows by their place and supplies</p>
        </div>
    </div>    
@@ -459,7 +441,7 @@
    <div class="services">
      <div class="icon icon-3 d-flex align-items-center justify-content-center"><span class="flaticon-quiz"></span></div>
      <div class="media-body">
-       <h3 class="heading mb-3">World Class &amp; Quiz</h3>
+       <h3 class="heading mb-3">Bài tập &amp; đề thi đa dạng </h3>
        <p>A small river named Duden flows by their place and supplies</p>
    </div>
  </div>      
@@ -468,7 +450,7 @@
    <div class="services">
      <div class="icon icon-4 d-flex align-items-center justify-content-center"><span class="flaticon-browser"></span></div>
      <div class="media-body">
-       <h3 class="heading mb-3">Get Certified</h3>
+       <h3 class="heading mb-3">Được chứng nhận</h3>
        <p>A small river named Duden flows by their place and supplies</p>
    </div>
  </div>      
@@ -484,8 +466,8 @@
    <div class="container">
       <div class="row justify-content-center pb-4">
        <div class="col-md-12 heading-section text-center ftco-animate">
-          <span class="subheading">Our Blog</span>
-          <h2 class="mb-4">Recent Post</h2>
+          <span class="subheading"> Blog</span>
+          <h2 class="mb-4">Bài viết gần đây</h2>
       </div>
   </div>
   <div class="row d-flex">
@@ -503,7 +485,7 @@
       </div>
       <h3 class="heading"><a href="#">I'm not creative, Should I take this course?</a></h3>
       <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
-      <p><a href="blog.html" class="btn btn-secondary py-2 px-3">Read more</a></p>
+      <p><a href="blog.html" class="btn btn-secondary py-2 px-3">Xem thêm</a></p>
   </div>
  </div>
  </div>
@@ -522,7 +504,7 @@
       </div>
       <h3 class="heading"><a href="#">I'm not creative, Should I take this course?</a></h3>
       <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
-      <p><a href="blog.html" class="btn btn-secondary py-2 px-3">Read more</a></p>
+      <p><a href="blog.html" class="btn btn-secondary py-2 px-3">Xem thêm</a></p>
   </div>
  </div>
  </div>
@@ -540,7 +522,7 @@
       </div>
       <h3 class="heading"><a href="#">I'm not creative, Should I take this course?</a></h3>
       <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
-      <p><a href="blog.html" class="btn btn-secondary py-2 px-3">Read more</a></p>
+      <p><a href="blog.html" class="btn btn-secondary py-2 px-3">Xem thêm</a></p>
   </div>
  </div>
  </div>

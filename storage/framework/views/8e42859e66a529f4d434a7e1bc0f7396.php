@@ -11,4 +11,5 @@
 <link rel="stylesheet" href="./assets/css/bootstrap-datepicker.css">
 <link rel="stylesheet" href="./assets/css/jquery.timepicker.css">
 <link rel="stylesheet" href="./assets/css/flaticon.css">
-<link rel="stylesheet" href="./assets/css/style.css"><?php /**PATH /Users/ThanhTung/Desktop/Education/resources/views/client/layouts/header.blade.php ENDPATH**/ ?>
+<link rel="stylesheet" href="./assets/css/style.css">
+<?php /**PATH /Users/ThanhTung/Desktop/Education/resources/views/client/layouts/header.blade.php ENDPATH**/ ?>

@@ -2,8 +2,9 @@
     <div class="row mb-5">
       <div class="col-md pt-5">
         <div class="ftco-footer-widget pt-md-5 mb-4">
-          <h2 class="ftco-heading-2">About</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <h2 class="ftco-heading-2">Về chúng tôi</h2>
+
+          <p>Mỗi khoảnh khắc học tập là một bước tiến quan trọng,định hình tương lai và xây dựng nền tảng vững chắc cho sự thành công. Hãy để chúng tôi giúp bạn thực hiện ước mơ đẹp này</p>
           <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
             <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
             <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -13,50 +14,42 @@
 </div>
 <div class="col-md pt-5">
     <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
-      <h2 class="ftco-heading-2">Help Desk</h2>
+      <h2 class="ftco-heading-2">Bộ phận hỗ trợ</h2>
       <ul class="list-unstyled">
-        <li><a href="#" class="py-2 d-block">Customer Care</a></li>
-        <li><a href="#" class="py-2 d-block">Legal Help</a></li>
-        <li><a href="#" class="py-2 d-block">Services</a></li>
-        <li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
-        <li><a href="#" class="py-2 d-block">Refund Policy</a></li>
-        <li><a href="#" class="py-2 d-block">Call Us</a></li>
+        <li><a href="#" class="py-2 d-block">Chăm sóc khách hàng</a></li>
+        <li><a href="#" class="py-2 d-block">Pháp lý</a></li>
+        <li><a href="#" class="py-2 d-block">Trợ giúp </a></li>
+        <li><a href="#" class="py-2 d-block">Chính sách bảo mật</a></li>        
+        <li><a href="#" class="py-2 d-block">Chính sách hoàn tiền</a></li>
+        <li><a href="#" class="py-2 d-block">Gọi cho chúng tôi</a></li>
     </ul>
 </div>
 </div>
 <div class="col-md pt-5">
    <div class="ftco-footer-widget pt-md-5 mb-4">
-      <h2 class="ftco-heading-2">Recent Courses</h2>
+      <h2 class="ftco-heading-2">Các khóa học gần đây</h2>
       <ul class="list-unstyled">
-        <li><a href="#" class="py-2 d-block">Computer Engineering</a></li>
-        <li><a href="#" class="py-2 d-block">Web Design</a></li>
-        <li><a href="#" class="py-2 d-block">Business Studies</a></li>
-        <li><a href="#" class="py-2 d-block">Civil Engineering</a></li>
-        <li><a href="#" class="py-2 d-block">Computer Technician</a></li>
-        <li><a href="#" class="py-2 d-block">Web Developer</a></li>
+        <li><a href="#" class="py-2 d-block">Kĩ thuật máy tính</a></li>
+        <li><a href="#" class="py-2 d-block">Thiết kế Website</a></li>
+        <li><a href="#" class="py-2 d-block">Nghiên cứu kinh doanh</a></li>
+        <li><a href="#" class="py-2 d-block">Kĩ thuật dân dụng</a></li>
+        <li><a href="#" class="py-2 d-block">Kĩ thuật viên máy tính</a></li>
+        <li><a href="#" class="py-2 d-block">Nhà phát triển Website</a></li>
     </ul>
 </div>
 </div>
 <div class="col-md pt-5">
     <div class="ftco-footer-widget pt-md-5 mb-4">
-       <h2 class="ftco-heading-2">Have a Questions?</h2>
+       <h2 class="ftco-heading-2">Mọi thắc mắc ?</h2>
        <div class="block-23 mb-3">
          <ul>
-           <li><span class="icon fa fa-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-           <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-           <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
+           <li><span class="icon fa fa-map-marker"></span><span class="text">Số 48/99 đường Cầu Diễn, Nam Từ Liêm, Hà Nội</span></li>
+           <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+84 869 888 319</span></a></li>
+           <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">stydylab.learn@gmail.com</span></a></li>
        </ul>
    </div>
 </div>
 </div>
-</div>
-<div class="row">
-  <div class="col-md-12 text-center">
-
-    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-  </div>
 </div>
 </div>
 <!-- loader -->

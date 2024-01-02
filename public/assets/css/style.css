@@ -9034,7 +9034,9 @@ textarea.form-control {
 .ftco-animate {
   opacity: 0;
   visibility: hidden; }
-
+.text-custom-by-me{
+  text-align: end;
+}
 .bg-primary {
   background: #4986fc !important; }
 
